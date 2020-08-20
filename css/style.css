@@ -1,0 +1,165 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+.logo{
+	font-size:25px;
+	font-family: sans-serif;
+}
+#one-img{
+    background:url("../image/group.jpg")center/cover no-repeat ;
+
+}
+.height{
+min-height:80vh;
+}
+.text-underline{
+	height:2px;
+	width:600px;
+	margin:0 auto;
+}
+.para{
+	font-size: 20px;
+	margin:5px;
+	font-weight:bold;
+}
+.border-image{
+	border: 20px solid rgba(0,0,0,0.2);
+}
+.image-bg{
+	background:url('../image/marvel.jpg')center/cover no-repeat fixed;
+	height:90vh;
+	width:100vw;
+}
+#fakebtn{
+	font-size:25px;
+	font-family: arial;
+}
+#fakebtn:hover{
+	cursor: pointer;
+	text-decoration: none;
+	background-color:rgba(0,0,0,0.3);
+}
+.animate{
+	animation: ane 4s forwards;
+}
+@keyframes ane{
+   9%{
+   	transform:scale(.2);   
+   }
+   24%{
+   	transform:scale(.4);
+   }
+   100%{
+   	transform:scale(1);
+   }
+}
+
+.animate1{
+	animation: ane1 4s forwards;
+}
+@keyframes ane1{
+   36%{
+   	transform:scale(.2);   
+   }
+   55%{
+   	transform:scale(.4);
+   }
+   100%{
+   	transform:scale(1);
+   }
+}
+
+.animate2{
+	animation: ane2 4s forwards;
+}
+@keyframes ane2{
+   73%{
+   	transform:scale(.2);   
+   }
+   8%{
+   	transform:scale(.4);
+   }
+   100%{
+   	transform:scale(1);
+   }
+}
+
+.animate3{
+	animation: ane3 4s forwards;
+}
+@keyframes ane3{
+   90%{
+   	transform:scale(.2);   
+   }
+   99%{
+   	transform:scale(.4);
+   }
+   100%{
+   	transform:scale(1);
+   }
+}
+.text-underline1{
+	height:2px;
+	width:70%;
+	margin:0 auto;
+}
+.text-underline2{
+	height:2px;
+	width:96%;
+	margin:0 auto;
+}
+.text-underline3{
+	height:2px;
+	width:99%;
+}
+.icon{
+	justify-content: space-between;
+}
+
+
+
+
+<section id="carsouel" class="py-5 bg-primary">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 mx-auto text-center">
+				<div id="exmaple" class="carousel slide" data-ride='carousel'>
+				<!--indincators-->
+				<ul class="carousel-indicators">
+					<li data-target="#exmaple" data-slide-to='0' class="active"></li>
+					<li data-target="#exmaple" data-slide-to='1'></li>
+					<li data-target="#exmaple" data-slide-to='2'></li>
+					<li data-target="#exmaple" data-slide-to='3'></li>
+				</ul>
+				<!--image-->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="image/group.jpg" alt="projects" class="d-block w-100">
+					</div>
+					<div class="carousel-item">
+						<img src="image/group1.jpg" alt="projects" class="d-block w-100">
+					</div>
+					<div class="carousel-item">
+						<img src="image/group2.jpg" alt="projects" class="d-block w-100">
+					</div>
+					<div class="carousel-item">
+						<img src="image/group3.jpg" alt="projects" class="d-block w-100">
+					</div>
+				</div>
+				<!--end of images-->
+  <a class="carousel-control-prev" href="#exmaple" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#exmaple" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+				<!--controls-->
+				<!--end-->	
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
